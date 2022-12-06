@@ -1,0 +1,44 @@
+.rodape {
+  background-color: black;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  padding-top: 15rem;
+  position: relative;
+}
+
+.rodape::before {
+  content: url("/img/detalhe.svg");
+  top: -60px;
+  margin-left: 2rem;
+  position: absolute;
+}
+
+.footer-div-p {
+  grid-column: 2;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.texto-rodape {
+  margin-top: 0;
+  padding-left: 0;
+  color: #b9b9b9;
+  grid-column: 1;
+}
+
+.rodape-lobo {
+  color: rgb(77, 75, 75);
+  font-size: 1.2rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.email {
+  margin-top: 0;
+}

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Fira Sans";
+  src: url("/fontes/FiraSans-Regular.ttf") format(opentype);
+}
+
+body {
+  display: grid;
+  font-family: "Fira Sans", Arial, Helvetica;
+  margin: 0;
+}
+
+.main-div,
+.section,
+.footer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 2rem;
+}
+
+.main {
+  padding: 2rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.letreiro {
+  grid-column: 1;
+  margin-top: 5rem;
+  margin-right: 6rem;
+  font-size: 8rem;
+  color: rgb(218, 218, 218);
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+.descricao-projetos {
+  max-width: 40ch;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

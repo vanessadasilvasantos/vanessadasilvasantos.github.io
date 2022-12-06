@@ -1,0 +1,123 @@
+@media (max-width: 900px) {
+  .letreiro {
+    color: black;
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: none;
+  }
+
+  .formacao {
+    color: #fff;
+  }
+
+  .slogan {
+    justify-self: center;
+    margin-bottom: 2rem;
+  }
+
+  .main-div,
+  .section,
+  .footer {
+    grid-template-columns: 1fr;
+  }
+
+  .lista {
+    padding: 0;
+  }
+
+  .contatos {
+    margin-top: 20px;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+
+  .descricao {
+    padding: 0;
+  }
+
+  .perfil {
+    max-width: 100%;
+  }
+
+  .titulo {
+    font-size: 2rem;
+    background-image: none;
+  }
+
+  .titulo::before {
+    content: "";
+    display: block;
+    background-image: linear-gradient(#00ced1, #8fdadb);
+    width: 1rem;
+    height: 0.6rem;
+  }
+
+  .footer-div-p {
+    font-size: 1.7rem;
+  }
+
+  .main-ul {
+    grid-column: 1;
+    justify-self: center;
+    gap: 0 1rem;
+  }
+
+  main ul li {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .cursos::before {
+    left: 0;
+    top: -50px;
+  }
+
+  .idiomas::before {
+    left: 0;
+    top: -50px;
+  }
+
+  .imagens-texto {
+    margin: 4rem 0;
+  }
+
+  .lista1-ano {
+    position: initial;
+    order: 1;
+    padding: 1.4rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-div {
+    grid-template-columns: 1fr;
+  }
+
+  .lista1 {
+    grid-template-columns: 1fr;
+  }
+
+  .perfil {
+    display: none;
+  }
+
+  .titulo {
+    font-size: 3rem;
+    padding-left: 0;
+  }
+
+  .subtitulo {
+    padding-left: 0;
+  }
+
+  .botao-geral {
+    padding: 1rem 0;
+  }
+}
